@@ -6,9 +6,9 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
 @Configuration
-@ComponentScan("com.increff.employee")
+@ComponentScan("com.nss.assignment")
 @PropertySources({ //
-		@PropertySource(value = "file:./employee.properties", ignoreResourceNotFound = true) //
+		@PropertySource(value = "file:./nss.properties", ignoreResourceNotFound = true) //
 })
 public class SpringConfig {
 
